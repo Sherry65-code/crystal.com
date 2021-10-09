@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Fascinate&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Barriecito&display=swap');
+*{
+    font-family: 'Fascinate', cursive;
+}
+body{
+    background: linear-gradient(rgb(110, 255, 182) ,rgb(127, 146, 255) ,rgb(159, 107, 255));
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+img{
+    border-radius: 8px;
+}
+.logo{
+    background-image: url('./logo.png');
+    padding: 40px 40px;
+    border-radius: 50%;
+    background-position: center;
+    background-size: 65px 65px;
+    transform: scale(0.6);
+}
+.logo:hover{
+    transition-duration: 0.6s;
+    transform: scale(1.0);
+    background-size: 40px 40px;
+}
+.a{
+position: absolute;
+left: 15%;
+top: 1%;
+}
+button{
+    background-color: rgb(0, 255, 179);
+    color: aliceblue;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 800;
+    padding: 7px 15px;
+    border: none;
+    border-radius: 4px;
+}
+button:hover{
+    transition-duration: 0.1s;
+    outline: 3px rgba(255, 255, 255, 0.534) solid;
+}
+.download{
+position: absolute;
+right: 5%;
+top: 4.5%;
+outline: none;
+}
+.download:hover{
+transition-duration: 0.1s;
+outline: 3px rgba(255, 255, 255, 0.534) solid;
+}
+::selection{
+    background-color: rgba(159, 107, 255, 0.425);
+    border-radius: 5px;
+    color: rgb(0, 255, 179);
+}
+h1{
+    font-family: 'Barriecito', cursive;
+    position: absolute;
+    left: 30px;
+}
+span{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background:linear-gradient(rgb(110, 255, 182) ,rgb(127, 146, 255) ,rgb(159, 107, 255));
+    border-radius: 8px;
+    padding-inline-start: 8px;
+    color: rgb(212, 255, 234);
+    font-style: italic;
+}
+.dis1{
+    position: absolute;
+    width: 60%;
+    right: 2%;
+}
+::-webkit-scrollbar{
+    background-color: rgb(0, 255, 179);
+}
+::-webkit-scrollbar-thumb{
+    background-color: aliceblue;
+    border-radius: 18px;
+    border: 4px rgba(255, 255, 255, 0) solid;
+}
+.doc{
+    position: absolute;
+    bottom: 2%;
+    left: 45%;
+}

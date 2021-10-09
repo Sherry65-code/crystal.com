@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather+Sans&display=swap');
+body{
+    background: linear-gradient(rgb(110, 255, 182) ,rgb(127, 146, 255) ,rgb(159, 107, 255));
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    overflow-y: hidden;
+}
+*{
+    font-family: 'Merriweather Sans', sans-serif;
+    font-weight: 700;
+}
+.header{
+    background-color: rgb(134, 255, 205);
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+    padding-inline-start: 30px;
+    padding: 20px;
+}
+.menubar{
+    background-color: rgba(86, 255, 185, 0.582);
+    position: absolute;
+    left: 0;
+    top: 60px;
+    text-align: left;
+    bottom: 0;
+    width: 15%;
+}
+.m{
+    width: 100%;
+    border: none;
+    background-color: rgba(240, 248, 255, 0);
+    padding: 10px;
+    text-align: left;
+    color: rgb(39, 39, 39);
+}
+.m:hover{
+    background-color: rgb(0, 255, 191);
+}
+::selection{
+    background-color: rgb(0, 255, 85);
+}
+.main{
+    position: absolute;
+    left: 15%;
+    top: 60px;
+    right: 0;
+    bottom: 0;
+    padding-inline-start: 40px;
+    padding-block-start: 30px;
+    overflow-y: scroll;
+}
+.img{
+    border-radius: 4px;
+    width: 100%;
+    transform: translate(-2%);
+}
+::-webkit-scrollbar{
+    background-color: rgb(0, 255, 179);
+}
+::-webkit-scrollbar-thumb{
+    background-color: aliceblue;
+    border-radius: 18px;
+    border: 4px rgba(255, 255, 255, 0) solid;
+}
+.menu{
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(240, 248, 255, 0);
+    padding-block-start: 20px;
+    padding-inline-end: 30px;
+    visibility: hidden;
+}
+.mm{
+    background-color: rgba(240, 248, 255, 0);
+    border: none;
+    border-radius: 20px;
+}
+*{
+    outline: none;
+}
