@@ -1,4 +1,4 @@
-window.addEventListener('load' ,intro ,false);
+window.addEventListener('load' ,install ,false);
 function intro(){
 document.getElementById('intro').innerHTML = `        <h1>Welcome to Invento Crystal OS Documentation</h1><br><br>
 I am Parambir Singh the owner and alone developer of the whole Crystal OS.
@@ -12,17 +12,23 @@ function install(){
 document.getElementById('intro').innerHTML = `<h1>Installation guide</h1><br><br>
 Let's see how to install Invento Crystal Cloud OS. You can take free
 trial at <a href="https://sherry65-code.github.io/crystal.io/"> Crystal.io </a> also.
-Now lets see how to download and install out OS. First you should have an os alerdy installed in your local machine.
-Then you have to go to <span onclick="window.open('https://sherry65-code.github.io/crystal.com/');">https://sherry65-code.github.io/crystal.com/</span> And click
-on the Download button. Now as your os zip file is downloaded 
-you have to extract the zip file and open the file and find the index.html or index file 
-or you can open the setup file and open the readMe after it.
-setup file opening works only in devices with Python3 installed
-. And you are ready with your OS. Easy Peasy.
+Now lets see how to download and install out OS. 
+Install os from the Download button in <a href="https://sherry65-code.github.io/crystal.com/">This Website</a>
+or download from the direct download link <a href="https://drive.google.com/u/0/uc?export=download&confirm=_GEs&id=1wAGrOdSJR7VFR5FDgxr1Iws8fIIMovF_">Download Now</a>
+First unzip the file and open the app folder. Then click on the run file 
+(Only if you have python installed) or you can open cmd in the folder and type
+npm start. And it's ready
+Easy Peasy.
 For contacting me mail me at <a href="mailto:sparambir65@outlook.com">sparambir65@outlook.com</a>. Thank you
 so much for supporting me.
-
-`
+<br><br>
+<h4>Requirements for installing Invento Crystal OS Virtual Machine</h4>
+<br>
+<ol>
+<li>Node.js (For Port Hosting)
+<li>Python3 (For Automation)
+</ol>
+`;
 }
 function screen(){
 document.getElementById('intro').innerHTML = `
